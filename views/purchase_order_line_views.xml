@@ -3,7 +3,7 @@
      License AGPL-3.0 or later (https://www.gnu.org/licenses/agpl). -->
 <odoo>
 
-    <record id="purchase_order_line_tree" model="ir.ui.view">
+    <record id="purchase_order_line_tree11" model="ir.ui.view">
         <field name="name">purchase.order.line.tree</field>
         <field name="model">purchase.order.line</field>
         <field name="inherit_id" ref="purchase.purchase_order_line_tree" />
@@ -59,7 +59,7 @@
         </field>
     </record>
 
-    <record model="ir.ui.view" id="view_purchase_order_line_pivot">
+    <record model="ir.ui.view" id="view_purchase_order_line_pivot124">
         <field name="name">purchase.order.line.pivot</field>
         <field name="model">purchase.order.line</field>
         <field name="arch" type="xml">
@@ -71,7 +71,7 @@
         </field>
     </record>
 
-    <record id="purchase_order_line_search" model="ir.ui.view">
+    <record id="purchase_order_line_search42" model="ir.ui.view">
         <field name="name">purchase.order.line.search</field>
         <field name="model">purchase.order.line</field>
         <field name="inherit_id" ref="purchase.purchase_order_line_search" />
@@ -150,7 +150,7 @@
         </field>
     </record>
 
-    <record id="purchase_order_line_tree" model="ir.ui.view">
+    <record id="purchase_order_line_tree444" model="ir.ui.view">
         <field name="name">purchase.order.line.tree</field>
         <field name="model">purchase.order.line</field>
         <field name="inherit_id" ref="purchase.purchase_order_line_tree" />
@@ -206,7 +206,7 @@
         </field>
     </record>
 
-    <record model="ir.ui.view" id="achat.view_purchase_order_line_pivot">
+    <record model="ir.ui.view" id="achat.view_purchase_order_line_pivot4544">
         <field name="name">purchase.order.line.pivot</field>
         <field name="model">purchase.order.line</field>
         <field name="arch" type="xml">
@@ -218,7 +218,7 @@
         </field>
     </record>
 
-    <record id="purchase_order_line_search" model="ir.ui.view">
+    <record id="purchase_order_line_search442585" model="ir.ui.view">
         <field name="name">purchase.order.line.search</field>
         <field name="model">purchase.order.line</field>
         <field name="inherit_id" ref="purchase.purchase_order_line_search" />
@@ -298,7 +298,7 @@
     </record>
 
 
-    <record id="action_purchase_orders_lines" model="ir.actions.act_window">
+    <record id="action_purchase_orders_lines84445" model="ir.actions.act_window">
         <field name="name">Purchase Order Lines</field>
         <field name="type">ir.actions.act_window</field>
         <field name="res_model">purchase.order.line</field>

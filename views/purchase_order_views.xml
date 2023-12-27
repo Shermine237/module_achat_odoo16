@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <odoo>
-    <record id="purchase_order_view_form_inherit" model="ir.ui.view">
+    <record id="purchase_order_view_form_inherit78657" model="ir.ui.view">
         <field name="name">purchase.order.form</field>
         <field name="model">purchase.order</field>
         <field
@@ -35,7 +35,7 @@
     </record>
 
 
-    <record id="purchase_order_form" model="ir.ui.view">
+    <record id="purchase_order_form44455321" model="ir.ui.view">
         <field name="name">purchase.order.form - purchase_order_approved</field>
         <field name="model">purchase.order</field>
         <field name="inherit_id" ref="purchase.purchase_order_form" />
@@ -64,7 +64,7 @@
             </field>
         </field>
     </record>
-    <record id="view_purchase_order_filter" model="ir.ui.view">
+    <record id="view_purchase_order_filter55548802" model="ir.ui.view">
         <field name="name">request.quotation.select - purchase_order_approved</field>
         <field name="model">purchase.order</field>
         <field name="inherit_id" ref="purchase.view_purchase_order_filter" />
@@ -82,7 +82,7 @@
         <field name="domain">[('state','in',('approved', 'purchase', 'done'))]</field>
     </record>
 
-    <record id="purchase_order_archive_form" model="ir.ui.view">
+    <record id="purchase_order_archive_form1414" model="ir.ui.view">
         <field name="model">purchase.order</field>
         <field name="inherit_id" ref="purchase.purchase_order_form" />
         <field name="arch" type="xml">
@@ -99,7 +99,7 @@
             </xpath>
         </field>
     </record>
-    <record id="view_purchase_order_archive_filter" model="ir.ui.view">
+    <record id="view_purchase_order_archive_filter11124741" model="ir.ui.view">
         <field name="model">purchase.order</field>
         <field name="inherit_id" ref="purchase.view_purchase_order_filter" />
         <field name="arch" type="xml">
@@ -114,14 +114,14 @@
         </field>
     </record>
 
-    <record id="purchase_order_form" model="ir.ui.view">
+    <record id="purchase_order_form124001" model="ir.ui.view">
         <field name="name">Recommended products button</field>
         <field name="model">purchase.order</field>
         <field name="inherit_id" ref="purchase.purchase_order_form" />
         <field name="arch" type="xml">
             <header>
                 <button
-                    name="%(achat.purchase_order_recommendation_action)d"
+                    name="%(purchase_order_recommendation_action)d"
                     states="draft,sent,sale"
                     string="Produits Recommandés"
                     type="action"
@@ -131,7 +131,7 @@
     </record>
 
 
-    <record id="purchase_order_form" model="ir.ui.view">
+    <record id="purchase_order_form417171252" model="ir.ui.view">
         <field name="name">received_status.purchase.order.form</field>
         <field name="model">purchase.order</field>
         <field name="inherit_id" ref="purchase.purchase_order_form" />
@@ -146,7 +146,7 @@
             </field>
         </field>
     </record>
-    <record id="purchase_order_tree" model="ir.ui.view">
+    <record id="purchase_order_tree22255541" model="ir.ui.view">
         <field name="name">received_status.purchase.order.tree</field>
         <field name="model">purchase.order</field>
         <field name="inherit_id" ref="purchase.purchase_order_tree" />
@@ -161,7 +161,7 @@
             </field>
         </field>
     </record>
-    <record id="purchase_order_view_tree" model="ir.ui.view">
+    <record id="purchase_order_view_tree14257321" model="ir.ui.view">
         <field name="name">received_status.purchase.order.tree</field>
         <field name="model">purchase.order</field>
         <field name="inherit_id" ref="purchase.purchase_order_view_tree" />
@@ -176,7 +176,7 @@
             </field>
         </field>
     </record>
-    <record id="view_purchase_order_filter" model="ir.ui.view">
+    <record id="view_purchase_order_filter11111114" model="ir.ui.view">
         <field name="name">received_status.purchase.order.search</field>
         <field name="model">purchase.order</field>
         <field name="inherit_id" ref="purchase.purchase_order_view_search" />
