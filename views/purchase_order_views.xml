@@ -52,7 +52,7 @@
                 <button
                     name="button_release"
                     type="object"
-                    states="approuvé"
+                    states="approved"
                     string="Convert to Purchase Order"
                     class="oe_highlight"
                 />
@@ -77,9 +77,6 @@
                 />
             </filter>
         </field>
-    </record>
-    <record id="purchase.purchase_form_action" model="ir.actions.act_window">
-        <field name="domain">[('state','in',('approved', 'purchase', 'done'))]</field>
     </record>
 
     <record id="purchase_order_archive_form1414" model="ir.ui.view">
@@ -202,5 +199,10 @@
                 />
             </group>
         </field>
+    </record>
+
+
+    <record id="purchase.purchase_form_action" model="ir.actions.act_window">
+        <field name="domain">[('state','in',('approved', 'purchase', 'done'))]</field>
     </record>
 </odoo>

@@ -1,9 +1,10 @@
 # Copyright 2018 Camptocamp SA
 # License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl)
-from odoo import fields, models, api
+from odoo import fields, models, api, _
 from odoo.tools import float_compare
 from itertools import groupby
 from lxml import etree
+from odoo.exceptions import UserError
 
 
 class PurchaseOrder(models.Model):
