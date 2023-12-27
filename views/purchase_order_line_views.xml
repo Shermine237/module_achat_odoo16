@@ -298,7 +298,7 @@
     </record>
 
 
-    <record id="action_purchase_orders_lines84445" model="ir.actions.act_window">
+    <record id="action_purchase_orders_lines" model="ir.actions.act_window">
         <field name="name">Purchase Order Lines</field>
         <field name="type">ir.actions.act_window</field>
         <field name="res_model">purchase.order.line</field>
